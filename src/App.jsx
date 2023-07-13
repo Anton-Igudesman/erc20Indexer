@@ -1,3 +1,5 @@
+
+
 import {
   Box,
   Button,
@@ -65,7 +67,7 @@ function App() {
     
    
     const configs = {
-      apiKey: 'TkcHoygMVt4ECaS6e5tia-a7u0_ixuP_',
+      apiKey: import.meta.env.VITE_API_KEY,
       network: Network.ETH_SEPOLIA,
     };
 
